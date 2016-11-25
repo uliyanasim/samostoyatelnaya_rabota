@@ -1,0 +1,60 @@
+<html>
+ 
+  <title>Текст</title>
+ 
+  <style>
+  
+   .layer2 {
+    margin-left: 2%; /* Отступ слева */
+   }
+  </style>
+    <body> 
+     <h1>1.Уравнение</h1>
+      <div class="layer2">
+       <em>1. x<sup>2</sup>+2x+1=0</em>
+       <br><em>2. (x+1)<sup>x</sup>=(x-1)<sup>2x</sup></em></br>
+       <em>3. sin<sup>2</sup>x=cos(π-x)</em>
+      </div>
+   
+     <h1>2.Таблицы</h1>
+     <h2>2.1 Структура</h2>
+      <style> td.m {
+        text-align: center;
+        height: 50px;
+        }
+       li {
+        text-align: center; 
+        }
+      </style>
+    <table width="500"  border="1" align="left"> 
+    <tr>
+     <td class="m" width="20%"></td>
+      <td class="m" width="80%" colspan="2">Колонки</td>
+       </tr>
+      <tr>
+     <td class="m" width="20%" height="2.5%" rowspan="2" >Строки</td>
+     <td class="m" width="40%" height="50%">Ячейка А</td>
+     <td class="m" width="40%" height="50%">Ячейка В</td>
+     </tr>
+     <tr>
+     <td class="m" width="40%" height="3%">Ячейка C</td>
+     <td class="m" width="40%" height="50%">Ячейка D </td>
+     </tr>
+     </table>
+     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><h3><big>2.2 Цвета</big></h3><br />
+     <table width="200"  border="5" align="left"> 
+     <tr>
+     <td class="m" bgcolor="red">Красный</td>
+     </tr>
+     <tr>
+     <td class="m" bgcolor="yellow">Жёлтый</td>
+     </tr>
+     <tr>
+     <td class="m" bgcolor="green">Зеленый</td>
+     </tr>
+     <tr>
+     <td class="m" bgcolor=blue>Синий</td>
+     </tr>
+     </table>
+   </body> 
+</html>
